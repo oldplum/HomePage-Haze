@@ -5,7 +5,7 @@
 
         const MAX_ANGLE = 6;       //最大倾斜角度 正比关系      
         const PERSPECTIVE = 450;   //透视距离 反比关系    
-        const EASING = 0.1;        //缓动效果 决定跟随鼠标速度   
+        const EASING = 0.1        //缓动效果 决定跟随鼠标速度   
 
         let rafId = null;
         let targetX = 0, targetY = 0;

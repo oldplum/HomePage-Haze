@@ -366,6 +366,11 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
     text-decoration: none;
 }
 
+.copyright-links .back-up-blog-link {
+    color: #E8B600;
+    text-decoration: none;
+}
+
 .yiyan{
     font-style: italic;
     color: #B8A37D;

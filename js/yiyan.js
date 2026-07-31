@@ -1,6 +1,6 @@
 (async function () {
     const el = document.getElementById("yiyan");
-    const api = "https://v1.hitokoto.cn/";
+    const api = "https://v1.hitokoto.cn";
     const REPEAT_MS = 3000;
     let retries = 0;
     const MAX_RETRIES = 5;
