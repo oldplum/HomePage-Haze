@@ -1,5 +1,5 @@
 (function(){
-    var startDate = new Date('2024-02-22T23:43:41').getTime();//修改为你的time
+    var startDate = new Date('2026-09-09T12:00:00').getTime();//修改为你的time
 
     function Sitetime() {
         var now = new Date().getTime(); 
