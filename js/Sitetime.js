@@ -1,5 +1,6 @@
 (function(){
-    var startDate = new Date('2026-09-09T12:00:00').getTime();//修改为你的time
+    var configDate = window.$config && window.$config.footer && window.$config.footer.startDate;
+    var startDate = new Date(configDate || '2026-09-09T12:00:00').getTime();
 
     function Sitetime() {
         var now = new Date().getTime(); 
